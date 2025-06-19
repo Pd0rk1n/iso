@@ -1,0 +1,14 @@
+pkgname=add-endeavouros
+pkgver=1.0
+pkgrel=1
+pkgdesc="Script to add EndeavourOS keyring and repository"
+arch=('any')
+url="https://endeavouros.com"
+license=('custom')
+depends=('bash' 'pacman')
+source=('add-endeavouros.sh')
+md5sums=('SKIP')
+
+package() {
+  install -Dm755 add-endeavouros.sh "$pkgdir/usr/local/bin/add-endeavouros"
+}
