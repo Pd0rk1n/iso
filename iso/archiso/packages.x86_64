@@ -157,7 +157,7 @@ xf86-input-libinput
 #xf86-video-ati
 #xf86-video-fbdev
 xf86-video-intel
-#xf86-video-nouveau
+xf86-video-nouveau
 #xf86-video-openchrome
 #xf86-video-vesa
 #xf86-video-vmware
@@ -167,7 +167,7 @@ mesa
 nvidia-dkms
 nvidia-utils
 nvidia-settings
-#mesa-utils
+mesa-utils
 
 ###base-devel
 base-devel
@@ -255,7 +255,7 @@ adobe-source-sans-fonts
 aic94xx-firmware
 alacritty
 ananicy-cpp
-arandr
+#arandr
 arc-gtk-theme
 arch-rebuild-order
 arch-repro-status
@@ -304,6 +304,7 @@ eza
 fastfetch-git
 file-roller
 firefox
+firefox-ublock-origin
 fish
 flameshot-git
 font-manager
