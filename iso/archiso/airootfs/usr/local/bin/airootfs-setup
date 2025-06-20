@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+set -e
+
+echo ">>> Running airootfs-setup..."
+
+# Dracula GTK Theme
+git clone --depth 1 https://github.com/dracula/gtk.git /tmp/dracula-gtk
+mkdir -p /usr/share/themes/Dracula
+cp -r /tmp/dracula-gtk/* /usr/share/themes/Dracula
+rm -rf /tmp/dracula-gtk
+
+# GTK3 Settings
+mkdir -p /etc/skel/.config/gtk-3.0
+cat <<EOF > /etc/skel/.config/gtk-3.0/settings.ini
+[Settings]
+gtk-theme-name=Dracula
+EOF
+
+# Spotify Patch
+if [ -f /usr/share/applications/spotify.desktop ]; then
+  sed -i 's|^Exec=spotify|Exec=env LD_PRELOAD=/usr/lib/spotify-adblock.so spotify %U|' /usr/share/applications/spotify.desktop
+fi
+
+# Fish Shell Default
+grep -qxF '/usr/bin/fish' /etc/shells || echo '/usr/bin/fish' >> /etc/shells
+chsh -s /usr/bin/fish root
+sed -i 's|^SHELL=.*|SHELL=/usr/bin/fish|' /etc/default/useradd
+
+echo ">>> airootfs-setup complete"

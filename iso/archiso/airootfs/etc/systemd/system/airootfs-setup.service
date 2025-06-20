@@ -1,0 +1,11 @@
+[Unit]
+Description=Custom ArchISO Setup Script
+Before=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/airootfs-setup
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
