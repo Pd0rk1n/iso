@@ -1,3 +1,3 @@
 # iso
-My iso this was forked from the Kirodubes Project
+This iso was forked from the Kiro-dubes Project
 https://github.com/kirodubes
