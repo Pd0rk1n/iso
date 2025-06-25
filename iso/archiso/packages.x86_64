@@ -67,7 +67,7 @@ linux-firmware-marvell
 linux-firmware-mediatek
 linux-firmware-mellanox
 linux-firmware-nfp
-linux-firmware-nvidia
+#linux-firmware-nvidia
 linux-firmware-other
 linux-firmware-qcom
 linux-firmware-qlogic
@@ -180,9 +180,9 @@ xf86-video-nouveau
 mesa
 
 ###hardware video support
-nvidia-dkms
-nvidia-utils
-nvidia-settings
+#nvidia-dkms
+#nvidia-utils
+#nvidia-settings
 mesa-utils
 
 ###base-devel
@@ -313,6 +313,7 @@ edu-sddm-simplicity-git
 edu-shells-git
 edu-variety-config-git
 edu-xfce-git
+edu-qtile-git
 efibootmgr
 evince
 exo
@@ -355,7 +356,7 @@ logrotate
 lolcat
 lsb-release
 lshw
-lxappearance
+lxappearance-gtk3
 man-db
 man-pages
 meld
@@ -389,7 +390,7 @@ parole
 paru-git
 pasystray
 pavucontrol
-picom
+picom-git
 playerctl
 plocate
 preload
@@ -399,7 +400,6 @@ pv
 python-pylint
 python-pywal
 qt5ct
-qtile
 rate-mirrors
 reflector
 ripgrep
@@ -485,6 +485,7 @@ xfce4-notifyd
 xfce4-panel
 xfce4-places-plugin
 xfce4-power-manager
+power-profiles-daemon
 xfce4-pulseaudio-plugin
 xfce4-screensaver
 xfce4-screenshooter
