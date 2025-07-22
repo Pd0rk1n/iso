@@ -78,6 +78,12 @@ echo "Do not run this file as root or add sudo in front"
 echo "Run this script as a user"
 echo
 echo "You can add a personal local repo to the iso build if you want"
+echo "https://www.youtube.com/watch?v=TqFuLknCsUE"
+echo
+echo "You can learn to create your own iso on the basis of Kiro"
+echo "That project is called Buildra"
+echo "https://youtu.be/3jdKH6bLgUE"
+echo "https://youtu.be/mH52To8DvlI"
 tput sgr0
 echo "################################################################## "
 echo
@@ -119,7 +125,7 @@ echo
 
 	desktop="xfce"
 
-	kiroVersion='v25.07.05.01'
+	kiroVersion='v25.07.21.01'
 
 	isoLabel='kiro-'$kiroVersion'-x86_64.iso'
 

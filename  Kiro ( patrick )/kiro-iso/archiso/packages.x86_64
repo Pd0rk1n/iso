@@ -270,8 +270,6 @@ poppler-qt5
 chromium
 dmenu
 firefox
-firefox-ublock-origin
-firefox-adblock-plus
 galculator
 #gimp
 imagemagick
@@ -280,7 +278,8 @@ lshw
 meld
 nitrogen
 numlockx
-qbittorrent
+#qbittorrent
+transmission-gtk
 scrot
 simplescreenrecorder-qt6-git
 variety
@@ -357,7 +356,8 @@ zsh-syntax-highlighting
 ###########################################################################
 
 ###applications
-
+#vivaldi
+#vivaldi-ffmpeg-codecs
 
 ###cursors
 bibata-cursor-theme
@@ -384,10 +384,6 @@ hardcode-fixer-git
 inxi
 mintstick
 neofetch-git
-nemo
-nemo-share
-nemo-fileroller
-nemo-terminal
 paru-git
 python-pyparted
 python-pywal
@@ -486,7 +482,7 @@ archlinux-logout-git
 archlinux-tweak-tool-git
 edu-arc-dawn-git
 edu-arc-kde
-#edu-dot-files-git
+edu-dot-files-git
 edu-hblock-git
 edu-neo-candy-arc-git
 edu-neo-candy-arc-mint-grey-git
@@ -506,7 +502,7 @@ hardcode-fixer-git
 lastpass
 neo-candy-icons-git
 pacman-hook-kernel-install
-pamac-aur
+pamac
 sparklines-git
 speedtest-cli
 ttf-material-design-iconic-font
