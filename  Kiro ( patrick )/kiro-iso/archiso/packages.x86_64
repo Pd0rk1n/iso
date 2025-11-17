@@ -210,6 +210,7 @@ libdvdcss
 pulseaudio
 pulseaudio-alsa
 pavucontrol
+pasystray
 
 ###bluetooth
 blueberry
@@ -276,8 +277,9 @@ imagemagick
 #inkscape
 lshw
 meld
-nitrogen
+#nitrogen
 numlockx
+
 #qbittorrent
 transmission-gtk
 scrot
@@ -334,6 +336,7 @@ pkgfile
 playerctl
 polkit
 polkit-gnome
+preload
 qt5ct
 ripgrep
 simple-scan
@@ -379,7 +382,7 @@ archlinux-tools
 downgrade
 fastfetch-git
 font-manager
-gitahead
+#gitahead
 hardcode-fixer-git
 inxi
 mintstick
@@ -497,7 +500,7 @@ edu-shells-git
 edu-variety-config-git
 edu-xfce-git
 flameshot-git
-gitahead-git
+#gitahead-git
 hardcode-fixer-git
 lastpass
 neo-candy-icons-git
