@@ -1,5 +1,5 @@
 QT_QPA_PLATFORMTHEME=qt5ct
 QT_STYLE_OVERRIDE=kvantum
-GTK_THEME=Dracula
+GTK_THEME=Arc-Dawn-Dark
 EDITOR=nano
-BROWSER=brave
+BROWSER=firefox
